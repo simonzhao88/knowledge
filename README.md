@@ -1,12 +1,12 @@
 # 知识库
 知识库，总结在项目中实际使用的git命令，docker部署，mongodb，mysql等知识点
 
-1. [git知识库]
+### git知识库
   - [git安装以及设置](git/git1.md)
   - [git的基本命令](git/git2.md)
-2. [docker知识库]
+### docker知识库
   - [基础](docker/docker.md)
-3. [mysql数据库知识库]
+### mysql数据库知识库
   - [第一天:基础]
       - [Mysql数据库基础语法](sql/mysql.md)
   - [第二天:提升练习]
@@ -14,12 +14,17 @@
       - [语法练习2](sql/mysql2_2.md)
   - [第三天:mysql与python交互]
       - [交互](sql/mysql3.md)
-4. [redis知识库]
+### redis知识库
   - [第一天:安装/基础]
       - [redis安装以及基础语法](sql/redis.md)
   - [第二天:订阅]
 	  - [订阅](sql/redis1.md)
-5. [Django知识库]
+
+### PEP 8风格指南
+  
+  - [风格指南](PEP 8风格指南.md)
+
+### Django知识库
   - [第一天:环境与创建项目]
       - [django概念介绍](django/1.1django_pattern.md)
       - [virtualenv环境](django/1.2python_virtualenv.md)
@@ -50,9 +55,11 @@
 	  - [响应结构/ajax-CRUD](django/9.1django_restful3.md)
   - [第十天:restframework3]
 	  - [分页/过滤/筛选](django/10.1django_restful4.md)
+  - [第十一天到十五天：项目]
+	  - [爱鲜蜂案例](https://github.com/coco369/axf)
+	  - [centos7部署项目](centos部署.md)
 
-
-6. [Flask知识库]
+### Flask知识库
   - [第一天:HelloFlask]
 	  - [flask简介](flask/1.0flask_helloflask.md)
 	  - [flask蓝图](flask/1.1flask_blueflask.md)
@@ -67,3 +74,25 @@
   - [第五天:多对多关系/debugtoolbal]
 	  - [flask-models3](flask/5.1flask_models.md)
 	  - [flask-extensions](flask/5.2flask_extensions.md)
+  - [第六天到第10天：项目]
+	  - [爱家案例](https://github.com/coco369/aj)
+
+### 爬虫
+
+  - [第一天:概念]
+		
+		- 概念：爬虫的由来/用来做什么
+		- 数据采集与分析：urllib/requests/bs4/mongodb/mysql/redis等
+		- 请求头-反爬虫：User-Agent，Accept，Accept-Language等
+		- 百度搜索：中文的编码解码
+		- ssl: ssl认证
+		- 应用案例1：urllib获取百度首页源代码，其中User-Agent的使用
+		- 应用案例2：爬去智联上某工作某地点的岗位个数
+		- 应用案例3：获取豆瓣电影中动态加载电影资源信息
+		- 作业：爬取qq音乐的歌曲，并保存
+	  - [爬虫引入/User-Agent讲解](spider/1.0spider_concept.md)
+	  - [应用案例](spider/1.1spider_baidu_zhilian_search.md)
+
+
+  - [第二天:多线程]
+	  - 并发、并行、同步、异步(spider/2.0spider_thread.md)
